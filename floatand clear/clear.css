@@ -1,0 +1,24 @@
+.card{
+    height: 250px;
+    width: 100%;
+    border: 4px solid black;
+margin: 3px;
+padding: auto;  
+overflow: contain;
+}
+img{
+    height: 220px;
+    width: auto;
+float: left;
+}
+.box
+{
+    border: 2px solid red;
+}
+.box:nth-child(3){
+    clear: both;
+}
+.box:nth-child(2)
+{
+    clear: right;
+}

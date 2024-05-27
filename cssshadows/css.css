@@ -1,0 +1,14 @@
+
+.box{
+    border: 3px solid black;
+    height: 20vh;
+    width: auto;
+    box-shadow: 5px 15px 5px 20px  rgb(255, 132, 0)  ;
+
+   
+}
+.boxy{
+    text-shadow:   2px 5px 2px rgb(38, 0, 255);
+    outline: 5px solid rgb(36, 233, 36);
+    outline-offset: 4px;
+}

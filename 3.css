@@ -1,0 +1,14 @@
+.p{
+    font-size: 40px;
+    width: 70%;
+    align-items: center;
+    background-color: yellow;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+div {
+    width: 30%;
+    align-items: center;
+    font-size: 30px;
+    background-color: red;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

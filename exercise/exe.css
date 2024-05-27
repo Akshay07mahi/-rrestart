@@ -1,0 +1,57 @@
+.out
+{
+    height: 98Vh;
+    width: 90vw;
+    position: relative;
+    border: 3px solid black;
+    margin: 25px;
+    padding: auto;
+}
+.con{
+    height: 20em;
+    width: 30em;
+    border: 2px solid blue;
+    margin: 30px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5%;
+    background-image: url(whale.png);
+    object-fit: cover;
+    opacity: 50%;
+}
+.form{
+    height: 20em;
+    width: 30em;
+    border: 2px solid rgb(141, 141, 225);
+    margin: 30px 30px 30px 30px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5%;
+}
+.but{
+    height: 20px;
+    width: 40px;
+    margin: 10px;
+    border: none;
+    text-shadow: 2px 0px 2px peachpuff ;
+    color: lightslategray;
+}
+h1{
+    margin: 10px 10px 20px 10px ;
+
+}
+p{
+    margin: 10px 10px 20px 10px ;
+}
+.bur{
+    border: none;
+    height: 40px;
+    font-size: large;
+    width: auto;
+    border-radius: 10%;
+    background-color: rgb(194, 194, 240);
+color: blue;
+    margin-top: 40px;
+margin-left: 180px;
+padding: auto;
+}

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            height: 75vh;
+            width: 70vw;
+            justify-content: center;
+            border: 3px solid black;
+            margin: auto;
+            padding: auto;
+            display: grid;
+            grid-template-areas: "side   rside"
+                                 "mlside mrside"
+                                 "flside frside";
+            
+        }
+        .box{
+            margin: 2vw;
+
+height: 20vh;
+border: 2px solid black;
+width: 20vw;
+background-color: rgb(184, 209, 209);
+justify-content: center;
+align-content: center;
+display: grid;
+grid-template-areas: "p"
+                     "button  button2";
+        }
+         .box .a{
+            grid-area: button;
+        }
+        .box .b{
+            grid-area: button2;
+        }
+        .box1{
+            grid-area: side;
+        }
+        .box2{
+            grid-area: rside;
+        }
+        .box3{
+            grid-area: mlside;
+        
+        }
+        .box4{
+            grid-area: mrside;
+           
+        }
+        .box5{
+            grid-area: flside;
+         
+        }
+        .box6{
+            grid-area: frside;
+        }
+    
+        .box p{
+            font-size: 2.5vh;
+            margin: 5vw;
+            padding: auto;
+        }
+        .box button{
+            font-size: 2.5vh;
+            margin: 5vw;
+            padding: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box box1">
+            <p> English</p>
+<button>
+
+
+</button>
+<button>
+
+</button>
+        </div>
+        <div class="box box2"> 
+             <p> English</p>
+            <button class="a">
+            
+            </button>
+            <button class="b">
+            
+            </button></div>
+        <div class="box box3"> 
+             <p> English</p>
+            <button class="a">
+            
+            </button>
+            <button class="b">
+            
+            </button></div>
+        <div class="box box4"> 
+             <p> English</p>
+            <button class="a">
+            
+            </button>
+            <button class="b">
+            
+            </button></div>
+        <div class="box box5"> 
+             <p> English</p>
+            <button class="a">
+            
+            </button>
+            <button class="b">
+            
+            </button></div>
+        <div class="box box6"> 
+             <p> English</p>
+            <button class="a">
+            
+            </button>
+            <button class="b">
+            
+            </button></div>
+
+    </div>
+    
+</body>
+</html>

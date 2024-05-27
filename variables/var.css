@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --color: aqua;
+    --seccolcor:rgb(69, 233, 69);
+    --defpad:40px;
+}
+ul{
+    
+    display: flex;
+}
+ul li{
+     list-style: none;
+     padding: auto;
+     margin: var(--defpad);
+     /* padding: var(--defpad); */
+    }
+
+    div :first-child{
+background-color: var(--seccolcor)
+    }
+.sec{
+    background-color: var(--color) 
+}

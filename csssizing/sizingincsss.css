@@ -1,0 +1,18 @@
+div{
+    border: 5px;
+    height: 80vh;
+    width: 80vw;
+    background-color: aqua;
+    margin: 30px auto;
+    font-size: 20px;
+}
+div p{
+    font-size: 2em;
+}
+.cont
+{
+    border: 5px;
+    width: 100vmin;
+    background-color: rgb(255, 0, 0);
+    font-size: 20px;
+}

@@ -1,0 +1,11 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.box{
+    border: 2px solid blue;
+    height: 30vh;
+    width: 30vw;
+    display: inline-block;
+    margin: 40px;
+padding: 40px;}

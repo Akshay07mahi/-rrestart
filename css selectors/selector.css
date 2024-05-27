@@ -1,0 +1,36 @@
+.boxes:nth-child(1){
+    background-color: red;
+}
+.boxes{
+    height: 70vh;
+    width: auto;
+    border: 2px solid black;
+
+}
+.box{
+    height: 20vh;
+    width: auto;
+    margin: 4px;
+    padding: auto;
+    border:2px solid yellow;
+}
+*{
+    /* universal selectors
+ */
+ padding: 0;
+ margin: 0;
+}
+p{
+    color: rgb(58, 205, 50);
+}
+.boxes::before{
+    content: "lets go";
+    color: rgb(92, 47, 255);
+}
+.box::after{
+    content: "learn to stand in the field";
+}
+::selection{
+    background-color: black;
+    color: rgb(47, 231, 255);
+}

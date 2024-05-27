@@ -1,0 +1,31 @@
+.con
+{
+    border: 2px solid black;
+
+    height: auto;
+    width: auto;
+    display: grid;
+    grid-template-areas: "nav nav nav"
+                         "side  main"
+                         "foot foot foot";
+}
+.box{
+    height: 55px;
+    border: 2px solid black;
+    margin: 2px;
+}
+.box1{
+    grid-area: nav;
+}
+.box2{
+    grid-area: side;
+
+
+}
+.box3{
+    grid-area: main;
+}
+.box4{
+    max-width: foot;
+
+}
